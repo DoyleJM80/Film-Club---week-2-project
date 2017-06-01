@@ -16,3 +16,24 @@ calendar highlighted day: #F5005B
 button background: #F5005B
 copyright text: #FFFFFF
 */
+
+/*header*/
+
+.icon-container {
+  background-color: #F5005B;
+  height: 115px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  float: left;
+}
+
+.icon {
+  background-image: url('../images/filmclub.png');
+  width: 84px;
+  height: 95px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
