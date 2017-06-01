@@ -21,7 +21,7 @@ copyright text: #FFFFFF
 
 .icon-container {
   background-color: #F5005B;
-  height: 115px;
+  height: 120px;
   width: 100px;
   display: flex;
   flex-direction: column;
@@ -36,4 +36,26 @@ copyright text: #FFFFFF
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
+}
+
+.home {
+  width: 100vw;
+  height: 40px;
+  background-color: rgb(65, 165, 190);
+}
+.calendar {
+  width: 100vw;
+  height: 40px;
+  background-color: rgb(73, 183, 210);
+}
+
+.join {
+  width: 100vw;
+  height: 40px;
+  background-color: rgb(83, 213, 230);
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
