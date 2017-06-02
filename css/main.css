@@ -17,23 +17,30 @@ button background: #F5005B
 copyright text: #FFFFFF
 */
 
-/*header*/
+/*font-family: 'PT Sans', sans-serif;*/
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  max-width: 100vw;
+}
+
+/*-----header-----*/
 
 header {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 120px;
+  height: 200px;
 }
 
 .icon-container {
   background-color: #F5005B;
-  height: 120px;
-  width: 100px;
+  height: 100%;
+  width: 25%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  float: left;
+  /*float: left;*/
   flex: 1 1 90%;
 }
 
@@ -45,27 +52,27 @@ header div {
 
 .icon {
   background-image: url('../images/filmclub.png');
-  width: 84px;
-  height: 95px;
-  background-size: cover;
+  height: 80%;
+  width: 80%;
+  background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
 }
 
 .home {
-  width: 100vw;
+  width: 75vw;
   background-color: rgb(65, 165, 190);
   flex: 1 1 30%;
 }
 .calendar {
-  width: 100vw;
+  width: 75vw;
   background-color: rgb(73, 183, 210);
   flex: 1 1 30%;
 }
 
 .join {
-  width: 100vw;
+  width: 75vw;
   background-color: rgb(83, 213, 230);
   flex: 1 1 30%;
 }
@@ -76,13 +83,125 @@ a {
 }
 
 header .home a {
-margin: 0 auto;
+  margin: 0 auto;
+  font-size: 40px;
 }
 
 header .calendar a {
   margin: 0 auto;
+  font-size: 40px;
 }
 
 header .join a {
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+/*-----section 1-----*/
+
+.get-involved {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+}
+
+.watch, .take-notes, .meetup {
+  background-color: #0B1942;
+  color: #fff;
+  width: 94vw;
+  padding-left: 2%;
+  font-size: 45px;
+  height: 80px;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.watch-text, .take-notes-text, .meetup-text {
+  font-size: 38px;
+  padding-right: 2%;
+}
+
+.header h3 {
+  font-size: 60px;
+}
+
+/*-----up next-----*/
+
+.up-next {
+  background-color: #0B1942;
+  padding: 0 2%;
+  width: 96vw;
+}
+
+.featured {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 60vh;
+}
+
+.up-next h1 {
+  color: #fff;
+  font-size: 70px;
+}
+
+h3 a {
+  color: #00B7D3;
+}
+
+.rashomon {
+  flex: 1 1 100%;
+  width: 40%;
+}
+
+.title {
+  /*display: inline-block;*/
+  flex: 1 1 20%;
+  width: 40%;
+}
+
+.discussion-points {
+  /*display: inline-block;*/
+  flex: 1 1 70%;
+  width: 40%;
+}
+
+
+/*-----footer-----*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  width: 100vw;
+  font-size: 40px;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+footer .home, footer .calendar, footer .join {
+  width: 100vw;
+}
+
+footer .home a, footer .calendar a, footer .join a {
+  margin: 0 auto;
+}
+
+.banner {
+  background-color: rgb(143, 223, 231);
+  color: #fff;
+  height: 70px;
+  flex: 1 1 40%;
+  width: 100vw;
+}
+
+.banner h4 {
   margin: 0 auto;
 }
