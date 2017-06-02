@@ -19,6 +19,13 @@ copyright text: #FFFFFF
 
 /*header*/
 
+header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 120px;
+}
+
 .icon-container {
   background-color: #F5005B;
   height: 120px;
@@ -27,6 +34,13 @@ copyright text: #FFFFFF
   flex-direction: column;
   justify-content: space-around;
   float: left;
+  flex: 1 1 90%;
+}
+
+header div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .icon {
@@ -35,27 +49,40 @@ copyright text: #FFFFFF
   height: 95px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   margin: 0 auto;
 }
 
 .home {
   width: 100vw;
-  height: 40px;
   background-color: rgb(65, 165, 190);
+  flex: 1 1 30%;
 }
 .calendar {
   width: 100vw;
-  height: 40px;
   background-color: rgb(73, 183, 210);
+  flex: 1 1 30%;
 }
 
 .join {
   width: 100vw;
-  height: 40px;
   background-color: rgb(83, 213, 230);
+  flex: 1 1 30%;
 }
 
 a {
   text-decoration: none;
   color: white;
+}
+
+header .home a {
+margin: 0 auto;
+}
+
+header .calendar a {
+  margin: 0 auto;
+}
+
+header .join a {
+  margin: 0 auto;
 }
