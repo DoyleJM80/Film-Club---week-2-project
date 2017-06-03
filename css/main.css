@@ -158,3 +158,59 @@ header a {
 li {
   list-style-type: circle;
 }
+
+/*-----upcoming films-----*/
+
+.upcoming-films {
+  background-color: #E2E2E2;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.edison-films {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 40%;
+}
+
+.the-great-train-robbery a img {
+  width: 140px;
+}
+
+.bicycle-thief {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 40%
+}
+
+.bicycle-thief-poster a img {
+  width: 140px;
+}
+
+.nosferatu {
+  margin-left: 10px;
+  width: 40%;
+}
+
+.nosferatu-poster a img {
+  width: 140px;
+}
+
+.metropolis {
+  margin-left: 10px;
+  width: 40%;
+}
+
+.metropolis a img {
+  width: 140px;
+}
+
+.upcoming-children {
+  flex: 1 1 50%;
+}
+
+.upcoming-films a {
+  color: #00B7D3;
+  font-size: 13.5px;
+}
