@@ -76,6 +76,70 @@ header a {
   background-color: #00D5E7;
 }
 
+/*-----user information-----*/
+
+h1 {
+  font-weight: 100;
+  margin-left: 15px;
+}
+
+fieldset {
+  border: none;
+}
+
+.profile-picture input {
+  margin-bottom: 50px;
+}
+
+.placeholder {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+form img {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+.inputs input {
+  width: 98%;
+}
+
+.inputs div {
+  margin-bottom: 15px;
+}
+
+/*-----checkboxes-----*/
+
+h4 {
+  font-weight: 100;
+}
+
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkboxes label {
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 98%;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #F5005B;
+  border: none;
+  color: white;
+  font-size: 12px;
+  font-weight: 100;
+  padding: 20px;
+  margin-bottom: 50px;
+}
 /*-----footer-----*/
 
 footer {
