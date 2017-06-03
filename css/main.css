@@ -301,4 +301,74 @@ footer a {
     width: 100px;
   }
 
+/*-----footer-----*/
+
+  footer {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100px;
+  }
+
+  .footer-link {
+    flex: 1 1 15%;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    flex: 1 1 60%;
+  }
+
+}
+
+/*-----desktop-----*/
+/*-----header-----*/
+
+@media (min-width: 768px) {
+
+  .home, .calendar, .join {
+    flex: 1 1 1%;
+  }
+
+  .hidden {
+    flex-grow: 5 5 97%;
+  }
+
+/*-----up next-----*/
+
+  .bottom-half {
+    background-color: #0B1942;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .featured {
+    float: left;
+    height: 340px;
+    width: 40%;
+    margin-right: 5%;
+  }
+
+  .rash-img {
+    width: 215px;
+  }
+
+  .upcoming-films {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40%;
+  }
+
+  .upcoming-children {
+    flex: 1 1 35%;
+  }
+
+  .the-great-train-robbery a img, .bicycle-thief-poster a img, .nosferatu-poster a img, .metropolis-poster a img{
+    width: 200px;
+    margin-right: 20px;
+  }
 }
