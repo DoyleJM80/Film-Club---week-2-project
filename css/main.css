@@ -89,4 +89,72 @@ header a {
 
 .get-involved h3 {
   color: #fff;
+  font-weight: 100;
+  padding: 10px;
+}
+
+/*-----up next-----*/
+
+.up-next {
+  background-color: #0B1942;
+  padding: 5%;
+}
+.up-next h1 {
+  color: #fff;
+  font-weight: 100;
+}
+
+.featured {
+  background-color: #E2E2E2;
+}
+
+.featured {
+  height: 310px;
+}
+
+.rash-img {
+  float: left;
+  width: 140px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.title a {
+  color: #00B7D3;
+}
+
+.title h3 {
+  display: inline-block;
+  margin-left: 10px;
+  width: 200px;
+  margin-bottom: 0px;
+}
+
+.title h4 {
+  width: 190px;
+  line-height: 50px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 0px;
+  border-bottom: solid;
+  border-width: thin;
+}
+
+.discussion-title {
+  display: inline-block;
+  width: 200px;
+  margin-top: 0px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
+
+.discussion-points {
+  display: inline-block;
+  width: 200px;
+  margin-top: 0px;
+  line-height: 30px;
+}
+
+li {
+  list-style-type: circle;
 }
