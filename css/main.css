@@ -78,6 +78,10 @@ header a {
 
 /*-----get-involved-----*/
 
+.get-involved-title {
+  padding-left: 5%;
+}
+
 .get-involved {
   padding-left: 5%;
   padding-right: 5%;
@@ -238,9 +242,38 @@ footer a {
 }
 
 /*-----tablet-----*/
+/*-----header-----*/
 
 @media (min-width: 544px) {
-  body {
+  header {
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
+
+  .home, .calendar, .join {
+    flex: 1 1 15%;
+  }
+
+  .hidden {
+    background-color: rgb(108, 223, 231);
+    flex: 1 1 35%;
+    height: 115px;
+  }
+
+/*-----get involved-----*/
+
+  .get-involved {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .watch-text, .take-notes-text, .meetup-text {
+    flex: 1 1 30%;
+    margin-right: 20px;
+  }
+
+/*-----up next-----*/
+
+  
 
 }
