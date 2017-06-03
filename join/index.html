@@ -1,3 +1,5 @@
+<!-- join -->
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -8,30 +10,118 @@
   </head>
   <body>
     <header>
-      <div class="icon"></div>
+      <div class="icon-container">
+        <div class="icon">
+          <img src="../images/filmclub.png" alt="filmclub logo">
+        </div>
+      </div>
       <div class="home">
-        <a href="./index.html">Home</a>
+        <a href="../index.html">Home</a>
       </div>
       <div class="calendar">
-        <a href="./calendar/index.html">Calendar</a>
+        <a href="../calendar/index.html">Calendar</a>
       </div>
-      <div class="Join">
-        <a href="./join/index.html">Join</a>
+      <div class="join">
+        <a href="./index.html">Join</a>
+      </div>
+      <div class="hidden">
       </div>
     </header>
+    <form class="main-form" action="index.html" method="post">
+      <fieldset>
+        <h1>Join Film Club</h1>
+        <div class="profile-picture">
+          <label for="picture">profile picture</label>
+          <input type="file" id="picture">
+          <img src="../images/profile-placeholder.png" alt="profile placeholder">
+        </div>
+        <div class="inputs">
+          <div class="name">
+            <label for="name">name</label>
+            <input type="text" id="name">
+          </div>
+          <div class="email">
+            <label for="email">email address</label>
+            <input type="email" id="email">
+          </div>
+          <div class="password">
+            <label for="password">password</label>
+            <input type="password" id="password">
+          </div>
+          <div class="confirm-password">
+            <label for="confirm">confirm password</label>
+            <input type="password" id="confirm">
+          </div>
+        </div>
+        <div class="checkboxes">
+          <h4>which genres are you interested in?</h4>
+          <label>
+            <input type="checkbox" id="genres">
+            action
+          </label>
+          <label>
+            <input type="checkbox" id="genres">
+            adventure
+          </label>
+          <label>
+            <input type="checkbox" id="genres">
+            comedy
+          </label>
+          <label>
+            <input type="checkbox" id="genres">
+            drama
+          </label>
+          <label>
+            <input type="checkbox" id="genres">
+            fantasy
+          </label>
+          <label>
+            <input type="checkbox" id="genres">
+            historical
+          </label>
+          <label>
+            <input type="checkbox" id="genres">
+            horror
+          </label>
+          <label>
+            <input type="checkbox" id="genres">
+            mystery
+          </label>
+          <label>
+            <input type="checkbox" id="genres">
+            romance
+          </label>
+          <label>
+            <input type="checkbox" id="genres">
+            science fiction
+          </label>
+          <label>
+            <input type="checkbox" id="genres">
+            western
+          </label>
+        </div>
+        <div class="textarea">
+          <label for="textarea">Additional input</label>
+          <textarea id="textarea"></textarea>
+        </div>
+        <button type="submit">Join Film Club</button>
+      </fieldset>
+    </form>
+
+
 
     <footer>
-      <div class="home">
-        <a href="./index.html">Home</a>
+      <div class="home footer-link">
+        <a href="../index.html">Home</a>
       </div>
-      <div class="calendar">
-        <a href="./calendar/index.html">Calendar</a>
+      <div class="calendar footer-link">
+        <a href="../calendar/index.html">Calendar</a>
       </div>
-      <div class="Join">
-        <a href="./join/index.html"></a>
+      <div class="join footer-link">
+        <a href="./index.html">Join</a>
       </div>
       <div class="banner">
-        <h4>2017 Film Club</h4>
+        <h4>2017, Film Club</h4>
       </div>
     </footer>
   </body>
