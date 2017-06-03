@@ -32,14 +32,14 @@
     <form class="main-form" action="index.html" method="post">
       <fieldset>
         <div class="user-information">
-          <div class="profile-picture">
+          <div class="profile-picture user-info-child">
             <label for="picture">profile picture</label><br>
             <input type="file" id="picture">
             <div class="placeholder">
               <img src="../images/profile-placeholder.png" alt="profile placeholder">
             </div>
           </div>
-          <div class="inputs">
+          <div class="inputs user-info-child">
             <div class="name">
               <label for="name">name</label><br>
               <input type="text" id="name">
@@ -48,6 +48,8 @@
               <label for="email">email address</label><br>
               <input type="email" id="email">
             </div>
+          </div>
+          <div class="passwords user-info-child">
             <div class="password">
               <label for="password">password</label><br>
               <input type="password" id="password">
@@ -58,7 +60,7 @@
             </div>
           </div>
         </div>
-        <h4>which genres are you interested in?</h4>
+        <h4>Which genres are you interested in?</h4>
         <div class="checkboxes">
           <label>
             <input type="checkbox" id="genres">
@@ -96,11 +98,11 @@
             <input type="checkbox" id="genres">
             romance
           </label>
-          <label>
+          <label class="science-fiction">
             <input type="checkbox" id="genres">
             science fiction
           </label>
-          <label>
+          <label class="western">
             <input type="checkbox" id="genres">
             western
           </label>
