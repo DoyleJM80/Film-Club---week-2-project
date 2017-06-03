@@ -214,3 +214,25 @@ li {
   color: #00B7D3;
   font-size: 13.5px;
 }
+
+footer {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-link {
+  width: 100%;
+}
+
+.banner {
+  background-color: rgb(108, 223, 231);
+  text-align: center;
+  height: 70px;
+}
