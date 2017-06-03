@@ -236,3 +236,11 @@ footer a {
   text-align: center;
   height: 70px;
 }
+
+/*-----tablet-----*/
+
+@media (min-width: 544px) {
+  body {
+  }
+
+}
