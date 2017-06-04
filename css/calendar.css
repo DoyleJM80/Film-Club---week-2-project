@@ -76,6 +76,48 @@ header a {
   background-color: #00D5E7;
 }
 
+/*-----grid-----*/
+
+h1 {
+  font-weight: 100;
+}
+
+.main {
+  background-color: #0B1942;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+h2 {
+  padding-top: 20px;
+  margin-left: 20px;
+  font-weight: 100;
+}
+
+td {
+  background-color: #fff;
+  height: 70px;
+  width: 70px;
+}
+
+.pink {
+  background-color: #F5005B;
+}
+
+td div {
+  background-color: #0B1942;
+  display: inline-block;
+  position: relative;
+  top: -22px;
+  left: -1px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /*-----footer-----*/
 
 footer {
