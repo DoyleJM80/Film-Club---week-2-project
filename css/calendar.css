@@ -76,7 +76,7 @@ header a {
   background-color: #00D5E7;
 }
 
-/*-----grid-----*/
+/*-----calendar-----*/
 
 h1 {
   font-weight: 100;
@@ -96,8 +96,8 @@ h2 {
 
 td {
   background-color: #fff;
-  height: 70px;
-  width: 70px;
+  height: 73px;
+  width: 73px;
 }
 
 .pink {
@@ -161,6 +161,17 @@ footer a {
     height: 115px;
   }
 
+  /*-----calendar-----*/
+
+  td {
+    height: 105px;
+    width: 105px;
+  }
+
+  td div {
+    top: -38px;
+  }
+
   /*-----footer-----*/
 
   footer {
@@ -194,6 +205,17 @@ footer a {
 
   .hidden {
     flex-grow: 5 5 97%;
+  }
+
+/*-----calendar-----*/
+
+  td {
+    height: 224px;
+    width: 224px;
+  }
+
+  td div {
+    top: -100px;
   }
 
 }
