@@ -218,4 +218,9 @@ footer a {
     top: -100px;
   }
 
+  .banner {
+    text-align: right;
+    padding-right: 20px;
+  }
+
 }
